@@ -1,0 +1,23 @@
+The Dataset was taken from Kaggle.
+Link to Dataset: 
+The Credit Card Fraud Detection actually predicts the whether a transaction made over a credit card is fraud or not.
+The data set is highly skewed, consisting of 492 frauds in a total of 284,807 observations.
+This resulted in only 0.172% fraud cases. This skewed set is justified by the low number of fraudulent transactions.
+The dataset consists of numerical values from the 28 ‘Principal Component Analysis (PCA)’ transformed features, namely V1 to V28.
+Furthermore, there is no metadata about the original features provided, so pre-analysis or feature study could not be done.
+The ‘Time’ and ‘Amount’ features are not transformed data.
+There is no missing value in the dataset.
+
+Experiment:- Dataset was Initially divided in the ratio 9:1 for training and testing.
+  Then it was trained over different Classification Algorithms, such as Logistic Regression, SVM, KNN, Decision Trees and Random Forests.
+  Each of the above model was then tested and the results were as follows.
+
+Accuracy Scores
+LR :  0.9992275552122467
+KNN :  0.9993328885923949
+SVM :  0.999385555282469
+DecisionTrees :  0.9990871107053826
+Random Forest :  0.9991222218320986
+
+The best accuracy was given by SVM.
+
